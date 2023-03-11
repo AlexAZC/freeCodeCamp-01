@@ -1,0 +1,115 @@
+:root{
+    --color-white: #f3f3f3;
+  --color-darkblue: #1b1b32;
+  --color-darkblue-alpha: rgba(27, 27, 50, 0.8);
+  --color-green:#37af65;
+}
+*, ::before, ::after{
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+    background-color: var(--color-darkblue-alpha);
+   
+}
+main{
+    width:650px;
+    margin:0 auto;
+    margin-top:80px;
+    color:var(--color-white);
+    font-size: 18px;
+
+}
+
+.titulo{
+    text-align: center;
+    
+}
+form{
+    background-color: var(--color-darkblue);
+    margin-top:30px;
+    padding-top: 40px;
+    
+}
+form input, select{
+    border: 0.2 solid white;
+    border-radius: 4.5px;
+    background-color: white;
+    color: black;
+
+    
+}
+
+.primero label{
+    
+    display: block;
+    width: 96%;
+    margin:0 auto;
+   
+
+}
+.primero input{
+    width: 98%;
+    margin:2px auto;
+    padding:4px;
+    
+    
+}
+.primero select{
+    width: 98%;
+    margin:3px auto;
+    padding:4px;
+
+}
+.would{
+    margin: -22px 0
+}
+.would label{
+    display: block;
+}
+.would input{
+    margin:0 10px;
+}
+.would select{
+    display: block;
+    width:98%;
+    margin:2px 0;
+    padding: 4px;
+    
+}
+.would .what{
+    margin: 10px 14px;
+}
+.improved{
+    margin:-19px 0
+}
+
+.improved label{
+    display:block;
+}
+.improved .labels{
+    margin: -10px 0;
+}
+.labels input{
+    margin:0 10px; 
+}
+.improved textarea{
+    display:block;
+    margin:-10px 0 0 0;
+    font-size: 15px;
+    
+}
+.improved #submit{
+    display: block;
+    margin: 20px 0 ;
+    width: 98%;
+    padding: 10px;
+    background-color: var(--color-green);
+    color:#f3f3f3;
+    font-size: 18px;
+    font-weight: bold;
+   
+}
+fieldset{
+    border: none;
+}
